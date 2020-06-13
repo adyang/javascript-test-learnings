@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "temperature": "node ./temperature/app.js"
+    "temperature": "node ./temperature/app.js",
+    "math": "node ./math/app.js"
   },
   "author": "",
   "license": "ISC",
