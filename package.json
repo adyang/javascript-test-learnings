@@ -1,0 +1,15 @@
+{
+  "name": "javascript-test-learnings",
+  "version": "1.0.0",
+  "description": "Project to learn about Javascript Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "temperature": "node ./temperature/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
