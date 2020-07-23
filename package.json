@@ -7,11 +7,18 @@
     "test": "jest",
     "temperature": "node ./temperature/app.js",
     "math": "node ./math/app.js",
-    "async": "node ./async/app.js"
+    "async": "node ./async/app.js",
+    "shop": "node ./shop/bin/www",
+    "shop:setup": "node ./shop/dev/setup.js"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.3.0"
+  },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.1.0"
   }
 }
